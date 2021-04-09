@@ -1,3 +1,4 @@
+import Container from '@/components/Container'
 import { useEffect, useState } from 'react'
 
 
@@ -44,11 +45,13 @@ function CountdownPage() {
     )
   })
   return (
+    <Container>
+
     <div className="text-center w-full">
-      <div className="justify-center flex bg-fuchsia-800 dark:bg-rose-800 py-4">
+      <div className="justify-center flex bg-th-background py-4">
         
       </div>
-      <div className="bg-fuchsia-700 dark:bg-rose-700 flex flex-col py-2 text-center text-green-200 dark:text-cyan-200">
+      <div className="bg-th-background flex flex-col py-2 text-center text-green-200 dark:text-cyan-200">
         <p className="font-semibold">days: </p>{' '}
         <p className="text-4xl font-extrabold">{timeLeft.days}</p>
       </div>
@@ -65,6 +68,7 @@ function CountdownPage() {
         <p className="text-4xl font-extrabold">{timeLeft.seconds}</p>
       </div>
     </div>
+    </Container>
   )
 }
 

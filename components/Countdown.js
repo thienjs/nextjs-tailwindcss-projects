@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import Cheese from '@/components/icons/cheese.svg'
+
 
 function Countdown() {
   const calculateTimeLeft = () => {
@@ -44,7 +44,6 @@ function Countdown() {
   });
   return (
     <div>
-      <Cheese className="w-12 h-12 text-yellow-600 dark:text-yellow-400"/>
       <h1 className="text-lg pt-2 pb-1">Days until reunion:</h1>
       {timerComponents.length ? timerComponents : <span>Cheers!</span>}
     </div>

@@ -8,6 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@reach/dialog": "^0.15.0",
+    "axios": "^0.21.1",
     "next": "latest",
     "next-themes": "^0.0.14",
     "react": "^17.0.1",

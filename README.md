@@ -10,3 +10,7 @@ My current go to stack in 2021 is Nextjs and Tailwindcss.
 ## To do
 - projects card
 - container
+
+## more projects to come
+- clock
+

@@ -29,7 +29,7 @@ export default function Home() {
                   <div className="flex-1">
                     <p className="text-sm font-medium text-th-accent-medium">
                       <a href="#" className="hover:underline">
-                        Article
+                        pokedex
                       </a>
                     </p>
                     <a href="#" className="block mt-2">

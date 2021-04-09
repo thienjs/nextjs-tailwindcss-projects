@@ -1,19 +1,63 @@
 const projectsData = [
     {
-      title: 'A Search Engine',
-      description: `What is you could look up any information in the world? Webpages, images, videos
-      and more. Google has many features to help you find exactly what you're looking
-      for.`,
-      imgSrc: '/static/images/google.png',
+      title: 'Pokedex',
+      description: `complete pokedex with details page. nextjs tailwindcss`,
+      imgSrc: '/static/images/projects.jpeg',
       href: 'https://www.google.com',
     },
     {
-      title: 'The Time Machine',
-      description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-      to the desired date and press "Go". No more worrying about lost keys or
-      forgotten handphones with this simple yet affordable solution.`,
-      imgSrc: '/static/images/time-machine.jpg',
-      href: '/blog/the-time-machine',
+      title: 'Todo',
+      description: `a simple to do list to learn react basics`,
+      imgSrc: '/static/images/projects.jpeg',
+      href: 'https://www.github.com/thienjs',
+    },
+    {
+      title: 'Notion Blog',
+      description: `nextjs tailwindcss blog with notion as CMS`,
+      imgSrc: '/static/images/projects.jpeg',
+      href: 'https://www.github.com/thienjs',
+    },
+    {
+      title: 'Mdx Blog',
+      description: `mdx powered blog.`,
+      imgSrc: '/static/images/projects.jpeg',
+      href: 'https://www.github.com/thienjs',
+    },
+    {
+      title: 'podoro clock',
+      description: `javscript time learning`,
+      imgSrc: '/static/images/projects.jpeg',
+      href: 'https://www.github.com/thienjs',
+    },
+    {
+      title: 'Notes app',
+      description: `learn react with notes app`,
+      imgSrc: '/static/images/projects.jpeg',
+      href: 'https://www.github.com/thienjs',
+    },
+    {
+      title: 'Instagram Clone',
+      description: `authenticated instagram clone with tailwind and nextjs`,
+      imgSrc: '/static/images/projects.jpeg',
+      href: 'https://www.github.com/thienjs',
+    },
+    {
+      title: 'Nice Dist Co',
+      description: `ecommerce with checkout shopify, strapi`,
+      imgSrc: '/static/images/projects.jpeg',
+      href: 'https://www.github.com/thienjs',
+    },
+    {
+      title: 'Norfeldt Ball ',
+      description: `landing page for sports league`,
+      imgSrc: '/static/images/projects.jpeg',
+      href: 'https://www.github.com/thienjs',
+    },
+    {
+      title: 'Annie Nails Spa',
+      description: `Landing page for Nail Salon`,
+      imgSrc: '/static/images/projects.jpeg',
+      href: 'https://www.github.com/thienjs',
     },
   ]
   

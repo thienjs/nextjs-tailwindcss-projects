@@ -13,4 +13,3 @@ My current go to stack in 2021 is Nextjs and Tailwindcss.
 
 ## more projects to come
 - clock
-
